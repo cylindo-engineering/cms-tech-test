@@ -26,3 +26,7 @@ Things that does not matter:
 - tests (though you are ofc welcome to write as many as you like)
 - App setup, use Create react app, Gatsby, Next.js or what ever you like.
 - cross browser compatability, if it works on one of the major browsers we are happy.
+
+## Delivery
+
+Create public git repo (github, bitbucket, gitlab your choice) and send the link to andreas@cylindo.com. Make sure to include a README.md with instruction on how to build and run your app.
