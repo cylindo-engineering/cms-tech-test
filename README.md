@@ -19,6 +19,7 @@ The main goal is to evaluate your ability to solve problems efficiently.
 Things that matter:
 - the code should be as simple as possible while solving the problem.
 - the outcome should match the mockup, though we do not expect pixel perfection and 100% accurate colors.
+- We will use your solution as the basis for the technical interview, so be prepared for questions about your design and implementation decisions.
 
 
 Things that does not matter:
