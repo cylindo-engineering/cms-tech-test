@@ -1,4 +1,4 @@
-The goal is to create an image viewer in which you can easily browse through a range of images.
+The goal is to create an image viewer in which you can easily browse through frames showing different angles of a furniture.
 For reference you can see a viewer [here](https://www.cylindo.com/solutions/360-product-viewer/)
 
 _Key Features:_
