@@ -7,8 +7,8 @@ _Key Features:_
 - Clicking on an image will zoom the image to its 4k version.
 - When zoomed-in, the viewer should no longer browse through images on drag but instead move the viewport of the image. Clicking the image again will zoom out.
 - Use the Cylindo API to fetch the images you need. Api is [here](https://learn.cylindo.com/hc/en-us/articles/360005334798-API)
-  -- Use customer 4404 and ARCHIBALDCHAIR
-  -- Ex: content.cylindo.com/api/v2/4404/products/ARCHIBALDCHAIR/frames/1/ will get you the first frame. Change to …/frames/2/ for second frame etc. (Max 32 frames).
+  - Use customer 4404 and ARCHIBALDCHAIR
+  - Ex: content.cylindo.com/api/v2/4404/products/ARCHIBALDCHAIR/frames/1/ will get you the first frame. Change to …/frames/2/ for second frame etc. (Max 32 frames).
 
 The solution must be written in JavaScript or TypeScript using React.
 
