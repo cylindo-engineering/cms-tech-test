@@ -1,11 +1,14 @@
-The goal is to create a tool that lets you create detail shots from a [product image](./image.png).
-The tools should follow the [mockup](./mockup.png).
+The goal is to create an image viewer in which you can easily browse through a range of images.
+For reference you can see a viewer [here](https://www.cylindo.com/solutions/360-product-viewer/)
 
 _Key Features:_
 
-- The user should be able to drag a rectangle with the mouse to mark the part of the image that should be exported as a detail shot.
-- Once a selection has been made it should be possible to move it by dragging the rectangle with the mouse, and to resize it by dragging the resize handles on the corners.
-- ~~the selection should show up in the panel on the right, and it should be possible to add new detail shots by clicking the + button.~~ (Ignore this bit.)
+- The user should be able to use drag to browse through images.
+- Clicking on an image will zoom the image to its 4k version.
+- When zoomed-in, the viewer should no longer browse through images on drag but instead move the viewport of the image. Clicking the image again will zoom out.
+- Use the Cylindo API to fetch the images you need. Api is [here](https://learn.cylindo.com/hc/en-us/articles/360005334798-API)
+  -- Use customer 4404 and ARCHIBALDCHAIR
+  -- Ex: content.cylindo.com/api/v2/4404/products/ARCHIBALDCHAIR/frames/1/ will get you the first frame. Change to …/frames/2/ for second frame etc. (Max 32 frames).
 
 The solution must be written in JavaScript or TypeScript using React.
 
@@ -16,7 +19,7 @@ The main goal is to evaluate your ability to solve problems efficiently.
 Things that matter:
 
 - the code should be as simple as possible while solving the problem.
-- the outcome should match the mockup, though we do not expect pixel perfection and 100% accurate colors.
+- the outcome should resemble the reference viewer on Cylindo.com (Ignore the bottom thumbnail bar in the viewer.) We do not expect pixel perfection and 100% accurate colors.
 - We will use your solution as the basis for the technical interview, so be prepared for questions about your design and implementation decisions.
 
 Things that does not matter:
