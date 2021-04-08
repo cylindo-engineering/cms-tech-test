@@ -4,8 +4,6 @@ For reference you can see a viewer [here](https://www.cylindo.com/solutions/360-
 _Key Features:_
 
 - The user should be able to use drag to browse through images.
-- Clicking on an image will zoom the image to its 4k version.
-- When zoomed-in, the viewer should no longer browse through images on drag but instead move the viewport of the image. Clicking the image again will zoom out.
 - Use the Cylindo API to fetch the images you need. Api is [here](https://learn.cylindo.com/hc/en-us/articles/360005334798-API)
   - Use customer 4404 and ARCHIBALDCHAIR
   - Ex: content.cylindo.com/api/v2/4404/products/ARCHIBALDCHAIR/frames/1/ will get you the first frame. Change to …/frames/2/ for second frame etc. (Max 32 frames).
@@ -20,6 +18,7 @@ Things that matter:
 
 - the code should be as simple as possible while solving the problem.
 - the outcome should resemble the reference viewer on Cylindo.com (Ignore the bottom thumbnail bar in the viewer.) We do not expect pixel perfection and 100% accurate colors.
+- The viewer should have good performance
 - We will use your solution as the basis for the technical interview, so be prepared for questions about your design and implementation decisions.
 
 Things that does not matter:
