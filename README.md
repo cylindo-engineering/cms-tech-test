@@ -17,7 +17,7 @@ The main goal is to evaluate your ability to solve problems efficiently.
 Things that matter:
 
 - the code should be as simple as possible while solving the problem.
-- the outcome should resemble the reference viewer on Cylindo.com (Ignore the bottom thumbnail bar in the viewer.) We do not expect pixel perfection and 100% accurate colors.
+- the outcome should resemble the reference viewer on Cylindo.com (Ignore the fullscreen button and the bottom thumbnail bar.) We do not expect pixel perfection and 100% accurate colors.
 - The viewer should have good performance
 - We will use your solution as the basis for the technical interview, so be prepared for questions about your design and implementation decisions.
 
